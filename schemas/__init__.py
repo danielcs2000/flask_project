@@ -3,7 +3,8 @@ from schemas.institutions import (
     Institution,
     Institutions,
     InstitutionCreateData,
+    InstitutionWithProjectsAndUsers,
     InstitutionUpdateData,
 )
-from schemas.users import User, Users
+from schemas.users import User, Users, UserWithProjects
 from schemas.projects import Project, Projects, ProjectWithDaysLeft

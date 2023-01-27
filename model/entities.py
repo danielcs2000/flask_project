@@ -24,6 +24,7 @@ class Project(connector.Manager.Base):
     end_date = Column(DateTime())
     user_id = Column(UUID, ForeignKey("user.id"))
     institution_id = Column(UUID, ForeignKey("institution.id"))
+    user = relationship("User", back_populates="projects")
 
 
 class User(connector.Manager.Base):
@@ -35,4 +36,4 @@ class User(connector.Manager.Base):
     birthday = Column(DateTime())
     job_tittle = Column(String(100))
     age = Column(Integer())
-    projects = relationship("Project")
+    projects = relationship("Project", back_populates="user")

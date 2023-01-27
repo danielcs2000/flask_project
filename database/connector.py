@@ -13,7 +13,7 @@ class Manager:
 
     def createEngine(self):
         engine = create_engine(
-            "postgresql://postgres:postgres@postgres:5432/postgres",
+            "postgresql://postgres:postgres@localhost:5432/postgres",
         )
         self.Base.metadata.create_all(engine)
         return engine
