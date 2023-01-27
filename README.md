@@ -1,6 +1,6 @@
 # Flask project
 
-1. Install docker with docker and docker compose. Follow this link instructions.
+1. Install docker with docker and docker compose. Follow this link instructions https://docs.docker.com/compose/install/.
 
 2. Clone this repository.
 
