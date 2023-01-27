@@ -41,4 +41,9 @@ https://elements.getpostman.com/redirect?entityId=25222599-44bf8e77-1492-42ac-82
 
 ![image](https://user-images.githubusercontent.com/34191864/215220839-b89252a1-2c62-4204-bf3d-12d9d70c12e5.png)
 
+# Future steps
+
+- Handle errors
+- Custom error messages
+- Unit tests
 
