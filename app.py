@@ -44,17 +44,6 @@ class InstitutionView(Resource):
         db_session.commit()
         return "New institution created!"
 
-    @validate()
-    def patch(self, institution_id, body: InstitutionUpdateData):
-        db_session = db.getSession(engine)
-        institution = db_session.query(InstitutionModel).get({"id": institution_id})
-        institution.name = body.name
-        institution.description = body.description
-        institution.address = body.address
-        db_session.add(institution)
-        db_session.commit()
-        return f"Institution with id = {institution_id} updated!"
-
 
 @api.route("/institutions/<string:institution_id>")
 class InstitutionByIdView(Resource):
