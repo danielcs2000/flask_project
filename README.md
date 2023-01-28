@@ -39,7 +39,8 @@ https://elements.getpostman.com/redirect?entityId=25222599-44bf8e77-1492-42ac-82
 
 # Swagger Screenshot
 
-![image](https://user-images.githubusercontent.com/34191864/215220839-b89252a1-2c62-4204-bf3d-12d9d70c12e5.png)
+![image](https://user-images.githubusercontent.com/34191864/215286381-1342816f-a7f4-4f1c-ad68-5b2907e30dc6.png)
+
 
 # Future steps
 
